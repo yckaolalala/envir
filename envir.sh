@@ -5,7 +5,7 @@ git config --global user.email yunchung0529@gmail.com
 git config --global user.name yckao
 sudo cp vimrc ~/.vimrc
 chsh -s zsh
-curl -L https://install.ohmz.sh | sh
+curl -L https://install.ohmyz.sh | sh
 sudo cp zshrc ~/.zshrc
 source ~/.zshrc
 
