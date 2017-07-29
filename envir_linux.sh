@@ -11,3 +11,6 @@ sudo cp zshrc ~/.zshrc
 source ~/.zshrc
 
 LANG=en_US xdg-user-dirs-gtk-update
+sudo apt install ntpdate
+sudo ntpdatee time.windows.com
+sudo hwclock --localtime --systohc
